@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/headerTitle"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:text="Kalkulator Sederhana "
+        android:textAlignment="center"
+        android:textSize="60px" />
+
+    <EditText
+        android:id="@+id/editTextAngka1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40px"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:hint="Masukkan Angka 1"
+        />
+
+    <EditText
+        android:id="@+id/editTextAngka2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40px"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:hint="Masukkan Angka 2"
+        />
+
+    <EditText
+        android:id="@+id/editTextOperator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40px"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:hint="Masukkan Operator" />
+
+    <Button
+        android:id="@+id/buttonHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100px"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="40px"
+        android:text="Operasikan"/>
+
+    <TextView
+        android:id="@+id/textViewHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:textSize="50px"
+        android:hint="Hasil Operasi"
+        android:textAlignment="center"/>
+</LinearLayout>
